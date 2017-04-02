@@ -1,0 +1,416 @@
+
+@font-face {
+  font-family: "DancingScript";
+  src:url("DancingScrpt-Regular.otf");
+  src: url("dancingscript-regular-webfont.woff2");
+}
+
+/*index y molde de pagina*/
+
+
+
+body{
+  background-color: #02010a;
+  font-family: "DancingScript";
+
+}
+
+@media (min-width:900px) {
+
+
+#todo{
+  width: 900px;
+  background-color:;
+  margin: auto;
+}
+header{
+  background-color: #5b7989;
+  display: inline-flex;
+  width: 900px;
+  color: white;
+  border-radius: 10px 10px 0 0;
+  font-family:
+
+}
+.enlaces{
+  float: right;
+  width: 450px;
+  margin-top: 25px;
+
+
+  text-align: right;
+
+}
+.titulo{
+  float: left;
+  text-shadow: 2px 2px 2px #02010a;
+
+
+}
+
+
+.inicio,.paisajes,.retratos{
+  color: white;
+  text-decoration-line: none;
+}
+
+.imagen1{
+  width: 900px;
+  background-color: #82c3a6;
+}
+.imagen1 img{
+  margin: 100px 100px 100px 100px;
+
+}
+
+#contenedor{
+  width: 900px;
+  background-color:  #d5c75f;
+  display: inline-flex;
+}
+.imagen2,.imagen3{
+  width: 450px;
+  text-align: center;
+
+
+
+
+}
+.imagen2 img{
+  box-shadow: 2px 2px 2px #82c3a6;
+
+
+  margin-left:45px;
+  margin-top: 60px;
+
+}
+.imagen2 img:hover{
+  transform: rotate(10deg);
+}
+.imagen3 img{
+  box-shadow: 2px 2px 2px  #82c3a6;
+  margin-left: 30px;
+  margin-top: 50px;
+
+  text-align: center;
+
+}
+
+
+.imagen3 img:hover{
+  transform: translate(20px,-5px);
+}
+
+footer{
+  width: 900px;
+  background-color: #C6d5c5;
+  border-radius: 0 0 10px 10px;
+  display: inline-flex;
+}
+.contacto,.terminos,.redes,.derechos{
+
+  width: 225px;
+  text-align: center;
+
+}
+/*codificacion paisajes no se ha arreglado lo de los enlaces*/
+
+#contenedorpaisajes{
+  background-color: #d5c75f;
+  width: 900px;
+  display: inline-flex;
+
+}
+#contenedorpaisajes2{
+  background-color: #d5c75f;
+  width: 900px;
+  display: inline-flex;
+
+}
+#contenedorpaisajes div{
+  width: 300px;
+  margin: auto;
+
+
+}
+#contenedorpaisajes img{
+  width: 250px;
+  margin-left: 25px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  box-shadow: 2px 2px 2px #02010a;
+}
+
+#contenedorpaisajes2 div{
+  width: 300px;
+  margin: auto;
+
+}
+
+#contenedorpaisajes2 img{
+  width: 250px;
+  margin-left: 25px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  box-shadow: 2px 2px 2px #02010a;
+
+}
+.enlaceretrato,.enlacepaisaje{
+  text-align: center;
+  float: none;
+
+}
+/*pagina de retratos aun no se a resuelto la ubicacion del enlace*/
+#contenedorretratos{
+  background-color: #d5c75f;
+  width: 900px;
+  display: inline-flex;
+}
+#contenedorretratos2{
+  background-color: #d5c75f;
+  width: 900px;
+  display: inline-flex;
+}
+#contenedorretratos div{
+  width: 300px;
+  margin: auto;
+}
+#contenedorretratos2 div{
+  width: 300px;
+  margin: auto;
+
+}
+#contenedorretratos img{
+  width: 150px;
+  margin-left: 70px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  box-shadow: 2px 2px 2px #02010a;
+}
+#contenedorretratos2 img{
+  width: 150px;
+  margin-left: 70px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  box-shadow: 2px 2px 2px #02010a;
+}
+
+
+
+/*codigo para imagenes de paisajes y retratos*/
+
+.imagen11,.retrato11 img{
+  -webkit-filter: blur(10px);
+  filter: blur(10px);
+
+
+}
+
+.imagen12,.imagen14,.imagen16,.retrato12,.retrato14,.retrato16 img{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+
+}
+
+.imagen13,.retrato13 img{
+  -webkit-filter: sepia(90%) ;
+  filter: sepia(90%);
+
+
+
+}
+
+}
+/*media queris para movil*/
+@media (max-width:899px) {
+
+  header{
+    background-color: #5b7989;
+    display: block;
+    width: 100%;
+    color: white;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+
+  }
+  .enlaces{
+
+    margin-bottom: 10px;
+
+    text-align: center;
+
+  }
+  .titulo{
+    text-shadow: 2px 2px 2px #02010a;
+
+
+
+  }
+
+  .inicio,.paisajes,.retratos{
+    color: white;
+    text-decoration-line: none;
+    font-size: 1em;
+    margin-bottom:5px;
+  }
+
+  .imagen1{
+    width: 100%;
+    background-color: #82c3a6;
+  }
+  .imagen1 img{
+    width: 75%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 38px;
+  }
+
+
+
+  #contenedor{
+    width: 100%;
+    background-color:  #d5c75f;
+    display: block;
+  }
+
+  .imagen2,.imagen3{
+    width:100% ;
+    text-align: center;
+
+
+  }
+
+  .imagen2 img{
+    width: 75%;
+    box-shadow:  2px 2px 2px   #82c3a6;
+    align-items: center;
+    margin: 12.5% 12.5% 1% 12.5%;
+  }
+  .imagen2 img:hover{
+    transform: rotate(10deg);
+  }
+
+  .imagen3 img{
+    width: 75%;
+    box-shadow: 2px 2px 2px #82c3a6;
+    margin: 12.5% 12.5% 1% 12.5%;
+
+  }
+  .imagen3 img:hover{
+    transform: translate(20px,-5px);
+  }
+
+  footer{
+    width: 100%;
+    background-color: #C6d5c5;
+    border-radius: 0 0 10px 10px;
+    display: block;
+  }
+
+  .contacto,.terminos,.redes,.derechos{
+
+    width: 100%;
+    text-align: left;
+
+  }
+  /*codificacion paisajes no se ha arreglado lo de los enlaces*/
+
+  #contenedorpaisajes{
+    background-color: #d5c75f;
+    width: 100%;
+    display: block;
+
+  }
+
+  #contenedorpaisajes2{
+    background-color: #d5c75f;
+    width: 100%;
+    display: block;
+
+  }
+
+  #contenedorpaisajes div{
+    width: 100%;
+    margin: auto;
+
+
+  }
+
+  #contenedorpaisajes img{
+    width: 80%;
+    margin-top: 10%;
+    margin-left: 10%;
+    box-shadow: 2px 2px 2px #02010a;
+  }
+
+  #contenedorpaisajes2 div{
+    width: 100%;
+    margin: auto;
+
+  }
+
+  #contenedorpaisajes2 img{
+    width: 80%;
+    margin-top: 10%;
+    margin-left: 10%;
+    box-shadow: 2px 2px 2px #02010a;
+
+  }
+  /*pagina de retratos aun no se a resuelto la ubicacion del enlace*/
+  #contenedorretratos{
+    background-color: #d5c75f;
+    width: 100%;
+    display: block;
+  }
+  #contenedorretratos2{
+    background-color: #d5c75f;
+    width: 100%;
+    display: block;
+  }
+  #contenedorretratos div{
+    width: 100%;
+    margin: auto;
+  }
+  #contenedorretratos2 div{
+    width: 100%;
+    margin: auto;
+
+  }
+  #contenedorretratos img{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+    box-shadow: 2px 2px 2px #02010a;
+
+  }
+  #contenedorretratos2 img{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+    box-shadow: 2px 2px 2px #02010a;
+
+  }
+
+
+
+  /*codigo para imagenes de paisajes y retratos*/
+
+  .imagen11,.retrato11 img{
+    -webkit-filter: blur(10px);
+    filter: blur(10px);
+
+  }
+
+  .imagen12,.imagen14,.imagen16,.retrato12,.retrato14,.retrato16 img{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+
+  }
+
+  .imagen13,.retrato13 img{
+    -webkit-filter: sepia(90%) ;
+    filter: sepia(90%);
+
+  }
+
+}
